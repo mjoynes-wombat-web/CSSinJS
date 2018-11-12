@@ -6,7 +6,8 @@
   "plugins": [
     [ "styled-jsx/babel",
     {
-      "sourceMaps": true
+      "sourceMaps": true,
+      "plugins": ["styled-jsx-plugin-sass"]
     }],
     "@babel/plugin-proposal-class-properties"
   ]
